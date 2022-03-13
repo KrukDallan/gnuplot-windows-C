@@ -11,7 +11,7 @@ The reason why I'm writing the solution here is because I wanted to save it on g
 
 This txt file briefly explains how to plot data using gnuplot in Windows WHEN PROGRAMMING IN C.
 It basicaly makes use of pipelines. Below is a simple code that shows how to do it, with different examples.
-
+```
 FILE* pipe = _popen("C:/Programs/gnuplot/bin/gnuplot.exe -persist", "w");
 	if (pipe != NULL)
 	{
@@ -29,6 +29,6 @@ FILE* pipe = _popen("C:/Programs/gnuplot/bin/gnuplot.exe -persist", "w");
 	}
 	else puts("Could not open the file\n");
 	_pclose(pipe);
-
+```	
 
 Note: the "-persist" command in line 14 keeps the plotting window open. If you don't need it you can safely remove it.
