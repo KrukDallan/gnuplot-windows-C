@@ -4,6 +4,7 @@ Small guide on how to use gnuplot for plotting (and more) when programming in C 
 ***********************************************************
 IMPORTANT: 
 I did not make this solution, I found it on stackoverflow at this link: https://stackoverflow.com/questions/9349538/gnuplot-c-from-windows-command-window-opens-and-closes/14027358#14027358
+
 The reason why I'm writing the solution here is because I wanted to save it on github in case I'd need it again in the future, and also because maybe other people with the same problem can find this solution. All the credits go to the dude that answered in the link above.
 ***********************************************************
 
